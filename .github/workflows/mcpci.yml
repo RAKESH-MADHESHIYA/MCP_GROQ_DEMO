@@ -30,9 +30,9 @@ jobs:
         run: |
           python -m compileall .
 
-      - name: Install Test Dependencies
-        run: |
-          pip install pytest
+      # - name: Install Test Dependencies
+      #   run: |
+      #     pip install pytest
 
       - name: Run Tests
         run: |
